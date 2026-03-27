@@ -419,13 +419,6 @@ npm run dev
 - **Arbitrage Theory**: Cont, R. & Tankov, P. (2004). "Financial Modelling with Jump Processes"
 
 ---
-
-##  License
-
-MIT License - feel free to use for educational and commercial purposes.
-
----
-
 ##  Contributing
 
 Contributions welcome! Areas for improvement:
@@ -437,14 +430,6 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-##  Author
-
-Built as a demonstration of Q-Learning for quantitative finance.
-
-**Contact:** [Your contact info]
-
----
-
 ##  Acknowledgments
 
 - OpenAI Gym for environment design patterns
@@ -452,5 +437,5 @@ Built as a demonstration of Q-Learning for quantitative finance.
 - React community for UI components
 
 ---
-**Ready to deploy? Start with paper trading and gradually scale up! 📈**
+**Ready to deploy? Start with paper trading and gradually scale up! **
 

@@ -4,7 +4,7 @@ A complete reinforcement learning-based arbitrage trading system with Python ML 
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This system uses **Q-Learning** (tabular reinforcement learning) to learn optimal arbitrage trading strategies across multiple exchanges. It includes:
 
@@ -16,7 +16,7 @@ This system uses **Q-Learning** (tabular reinforcement learning) to learn optima
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 arbitredge/
@@ -40,7 +40,7 @@ arbitredge/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Python Dependencies
 
@@ -96,7 +96,7 @@ Frontend runs on `http://localhost:5173`
 
 ---
 
-## 🧠 ML System Details
+##  ML System Details
 
 ### State Space
 - **Price Spread**: Difference between exchanges (discretized into bins)
@@ -163,7 +163,7 @@ RL Improvement: +34.6% profit vs baseline
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### GET `/api/arbitrage/signals`
 Get current arbitrage trading signals.
@@ -223,7 +223,7 @@ Get Q-Learning model status.
 
 ---
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 ### Mutual Funds Dashboard
 - **10 Indian Funds**: SBI, HDFC, ICICI, Axis, Mirae, Parag Parikh, etc.
@@ -243,7 +243,7 @@ Get Q-Learning model status.
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `ml/train.py` to customize:
 
@@ -269,7 +269,7 @@ config = {
 
 ---
 
-## 🚀 Advanced Features
+##  Advanced Features
 
 ### 1. Deep Q-Learning (DQN)
 Replace Q-table with neural network:
@@ -334,7 +334,7 @@ with Pool(3) as p:
 
 ---
 
-## 📈 Visualization Examples
+##  Visualization Examples
 
 ### Training Curves
 ![Training Curves](./checkpoints/training_curves.png)
@@ -351,7 +351,7 @@ with Pool(3) as p:
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 ### For Production Use:
 
@@ -382,7 +382,7 @@ with Pool(3) as p:
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Model not loading
 ```bash
@@ -412,7 +412,7 @@ npm run dev
 
 ---
 
-## 📚 References
+##  References
 
 - **Q-Learning**: Watkins, C.J.C.H. (1989). "Learning from Delayed Rewards"
 - **Double Q-Learning**: van Hasselt, H. (2010). "Double Q-learning"
@@ -420,13 +420,13 @@ npm run dev
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - feel free to use for educational and commercial purposes.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Areas for improvement:
 - Implement Deep Q-Learning (DQN)
@@ -437,7 +437,7 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Built as a demonstration of Q-Learning for quantitative finance.
 
@@ -445,12 +445,12 @@ Built as a demonstration of Q-Learning for quantitative finance.
 
 ---
 
-## ⭐ Acknowledgments
+##  Acknowledgments
 
 - OpenAI Gym for environment design patterns
 - FastAPI for modern Python APIs
 - React community for UI components
 
 ---
-
 **Ready to deploy? Start with paper trading and gradually scale up! 📈**
+
